@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ABOBE PHOTOZHAB</title>
+	<style type="text/css">
+		#canv {
+			width: 800;
+			height: 600;
+			border: 1px solid black
+		}
+	</style>
+</head>
+<body>
+<div class="head">PHOTOZHAB</div>
+
+	<div class="time" id="time"></div>
+
+	<div class="canv">
+		<canvas id="canv" width="800" height="600"></canvas>
+	</div>
+
+	<div class="tools">
+		<div class="coordinates">
+			<p id="x"><b>x: </b> <span id="xCoord"></span></p>
+			<p id="y"><b>y: </b> <span id="yCoord"></span></p>
+			<br>
+			<button class="toolButton" id='brush'>Brush</button>
+			<button class="toolButton" id='line'>Line</button>
+			<button class="toolButton" id='rectangle'>Rectangle</button>
+			<button class="toolButton" id='circle'>Circle</button>
+			<select id='sizeSelect'>
+				<option>5</option>
+				<option>10</option>
+				<option>15</option>
+				<option>20</option>
+			</select>
+			<label for="color">Line Color: </label><input type="color" id="color"  value="#ff0000">
+			<label for="fillcolor">Fill Color: </label><input type="color" id="fillcolor"  value="#00ff00">
+		</div>
+	</div>
+
+
+
+	<script src="script.js">
+		
+
+	</script>
+</body>
+</html>
